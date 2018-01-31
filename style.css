@@ -125,9 +125,13 @@ a:hover {
 
 .list-without-style {
   list-style: none;
+  padding-left: 0px;
+}
+
+.list-without-style li {
+  margin: 40px;
 }
 
 .list-without-style li i {
-  list-style: none;
   font-size: 40px;
 }
