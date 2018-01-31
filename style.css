@@ -61,7 +61,7 @@ a:hover {
 }
 
 .container {
-  width: 600px;   /* This sets the width */
+  width: 700px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -111,12 +111,17 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 250px;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #00204A;
 }
+
 #page-content {
   margin-left: 300px;
 }
 
+#list-without-style {
+  list-style: none;
+}
