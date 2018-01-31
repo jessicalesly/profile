@@ -116,12 +116,18 @@ a:hover {
   top: 0;
   bottom: 0;
   background-color: #00204A;
+  text-align: center;
 }
 
 #page-content {
   margin-left: 300px;
 }
 
-#list-without-style {
+.list-without-style {
   list-style: none;
+}
+
+.list-without-style li i {
+  list-style: none;
+  font-size: 40px;
 }
